@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    width: auto%;
+    height: auto;
+    background-image: url(Images/Mountain.jpeg);
+    background-size: 100%;
+}
+h1{
+    color: #1aa0ed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.fa: hover{
+    opacity: 0.7;
+}
+.fa-twitter{
+background: #55ACEE;
+color: white;
+}
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+.fa-google{
+    background: #5167e4;
+    color: white;
+}
+.fa-pinterest{
+    background: #cb2027;
+    color: white;
+}
+footer{
+    display: block;
+}

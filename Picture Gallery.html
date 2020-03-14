@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="=UTF-8">
+        <title>My Picture Gallery</title>
+        <link href="Picture Gallery.css" type="text/css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <h1 align="center">My Picture Gallery</h1>
+        </div>   
+        <div class="row">
+            <div class="column">
+                <img src="Images/Howard University.png" alt="Howard University" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="Images/Washington DC.jpg" alt="Washington D.C" style="width:100%" onclick="myFunction(this)">
+            </div>
+            <div class="column">
+                <img src="Images/Detroit.jpg" alt="Detroit, MI" style="width:100%" onclick="myFunction(this)">
+            </div>
+            <div class="column">
+                <img src="Images/Chicago.jpeg" alt="Chicago, IL" style="width:100%" onclick="myFunction(this)">
+            </div>
+        </div>  
+        <br>
+        <button onclick="goBack()">Go Back</button>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>   
+         <br><br>
+         <footer>&copy; Copyright 2020 <HTML class="am"></HTML></footer>
+    </body>
+</html>
